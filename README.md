@@ -39,7 +39,9 @@ It allows students to submit course requests and teachers to approve or reject t
 ---
 
 ## 👩‍💻 Developer Team
-- Harshita Mehta  
+- Harshita Mehta
+-  Avani Pal
+- Himanshi Chauhan 
 - Hemlata Pathak  
-- Himanshi Joshi  
-- Avani Pal
+  
+
