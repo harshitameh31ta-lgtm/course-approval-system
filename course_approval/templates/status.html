@@ -1,0 +1,11 @@
+<h2>Status</h2>
+
+{% for r in records %}
+Name: {{ r[1] }}<br>
+Roll: {{ r[2] }}<br>
+Course: {{ r[3] }}<br>
+Status: {{ r[4] }}<br>
+<hr>
+{% endfor %}
+
+<a href="/dashboard">Back</a>

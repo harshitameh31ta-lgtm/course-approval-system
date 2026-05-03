@@ -1,0 +1,15 @@
+<h2>Teacher Panel</h2>
+
+{% for r in records %}
+Name: {{ r[1] }}<br>
+Roll: {{ r[2] }}<br>
+Course: {{ r[3] }}<br>
+Status: {{ r[4] }}<br>
+
+<a href="/approve/{{ r[0] }}">Approve</a>
+<a href="/reject/{{ r[0] }}">Reject</a>
+
+<hr>
+{% endfor %}
+
+<a href="/logout">Logout</a>
